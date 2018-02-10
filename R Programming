@@ -1,0 +1,2 @@
+contour(surf, add = T)
+add---logical. If TRUE, add to a current plot.
