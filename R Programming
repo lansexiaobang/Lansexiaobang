@@ -1,2 +1,9 @@
 contour(surf, add = T)
 add---logical. If TRUE, add to a current plot.
+
+
+vario.CN.M <- variog(coords = s, data = CN, estimator.type = "classical", uvec = (seq(0, max.dist, l = bins )))
+
+u----a vector with distances.
+v----a vector with estimated variogram values at distances given in u.
+n----number of pairs in each bin, if option = "bin
