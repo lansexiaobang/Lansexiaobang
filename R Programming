@@ -1,8 +1,16 @@
 contour(surf, add = T)
+
 add---logical. If TRUE, add to a current plot.
 
 
+
 vario.CN.M <- variog(coords = s, data = CN, estimator.type = "classical", uvec = (seq(0, max.dist, l = bins )))
+plot(vario.CN.M, main = "CNRatios")
+
+estimator.type	
+"classical" computes the classical method of moments estimator. 
+"modulus" returns the variogram estimator suggested by Hawkins and Cressie (see Cressie, 1993, pg 75). 
+Defaults to "classical".
 
 u----a vector with distances.
 v----a vector with estimated variogram values at distances given in u.
