@@ -1,0 +1,24 @@
+P correlation cannot be used to estimate the conditonal correlation
+
+1). its better to use spearman correlation, but how to convert it to equal probabilites?
+
+
+
+Actual profits need to be explained more accurately
+
+1) How the sysmetic correlation change the bidding strategy?
+2) The significant level of price differences in DA and RT markets.
+
+
+
+The conditional correlation cannot fit the historical data perfectly
+
+1). Adjust the bin size of the histogram: How to optimize the bin size? ANN?
+2). Increase the historical data size by resampling? What’s the name of the method?
+
+
+
+How to distinguish the proposed one with ongoing ones in the literature?
+
+1). Literature review of the scenario generation methods used for wind power bidding
+2). Logicly state the features of these methods
